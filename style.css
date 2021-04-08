@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+/*.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}*/
+.hcolor {
+  color: #003366;
+  font-weight: 600;
+}
+.container {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+.headercol {
+  font-weight: 600;
+}
+/*.bgcol {
+  background-color: #003366;
+}
+.navcol ul li a {
+  color: white;
+  font-size: 12px;
+}
+.navcol ul li a:hover {
+  color: #ff0000;
+}*/
+
+
+.menucol{
+	background-color: #003366;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+	color: chocolate;
+	}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(210,105,30,.6);
+}
+
+.menucol_u ul li a{
+	font-weight: 500;
+	font-size: 14px;
+}
+
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.8) 100%), url("images/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 650px;
+	
+}
+.btn{
+	background-color: #ff0000;
+	color: white;
+	border-radius: 25px;
+	font-size: 13px;
+}
+.btn:hover{
+	color: black;
+}
+/*banner*/
+/*roof*/
+.roof {
+	color: #ff0000;
+	font-size: 18px;
+	padding-top: 20px;
+}
+	
+.roofpar{
+		font-size: 13px;
+	font-weight: 100;
+	}
+/*roof ends*/
+/*why choose*/
+.whychooseh{
+	background-color: #ff0000;
+	color: white;
+}
+.whychooseb{
+	font-size: 18px;
+	padding: 25px 0;
+}
+.whychoosebp{
+	font-size: 14px;
+}
+/*why choose ends*/
+/*Johnsm*/
+.johnsm_p{
+	padding-left: 55px;
+	padding-right: 55px;
+	font-size: 18px;
+}
+.johnsm_h{
+	font-size: 14px;
+	color: #003366;
+	font-weight: 500;
+}
+/*Johnsm ends*/
+
+/*footer*/
+/*col1*/
+.footer{
+	background-color: #003366;
+}
+
+.call{
+	font-size: 15px;
+}
+.socialmedia{
+	padding-left: 30px;
+	padding-bottom: 25px;
+}
+.copywr{
+	font-size: 12px;
+	line-height: .5;
+	padding-right: 99px;
+}
+.line{
+	opacity: 0.1;
+	height: 280px;
+	
+}
+/*col1-end*/
+/*col2*/
+.services h2{
+	font-size: 15px;
+	font-weight: 500;
+	padding-bottom: 15px;
+}
+.services p{
+	font-size: 12px;
+		line-height: .5;
+}
+/*col2-end*/
+/*footer ends*/
+@media (max-width: 768px) {
+	.rf{
+		padding-left: 45px;
+	}
+	.footer .btn{
+		margin-left: 45px;
+	}
+	.work{
+		padding-left: 45px;
+	}
+	.wrapper{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.wrapce{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.footer{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.copywr{
+		padding-left: 150px;
+	}
+  
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+	.footer{
+		padding-left: 90px;
+}
+	.copywr{
+		padding:0 5px;
+	}
+
+
+
+
+
+
+
+
+
+
+
